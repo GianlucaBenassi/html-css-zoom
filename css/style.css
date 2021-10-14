@@ -67,3 +67,13 @@ footer {
 /* header .win-btn {
     background-color: blue;
 } */
+
+.debug main .view {
+    height: 50px;
+    background-color: green;
+}
+
+.debug main .webcams {
+    height: 1000px;
+    background-color: yellow;
+}
