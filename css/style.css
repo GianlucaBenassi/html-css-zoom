@@ -76,6 +76,21 @@ main .view-btn span {
     margin-left: 5px;
 }
 
+
+main .main-content {
+    display: flex;
+}
+
+main .main-content aside {
+    width: 10%;
+    height: 100%;
+}
+
+main .main-content .webcams {
+    width: 80%;
+    height: 100%;
+}
+
 /* ***** footer ***** */
 
 footer {
@@ -94,7 +109,19 @@ footer {
     background-color: green;
 } */
 
-.debug main .webcams {
+/* .debug main .main-content {
     height: 1000px;
     background-color: yellow;
+} */
+
+.debug .main-content {
+    height: 100%;
+}
+
+.debug .main-content aside {
+    background-color: grey;
+}
+
+.debug .main-content .webcams {
+    background-color: green;
 }
