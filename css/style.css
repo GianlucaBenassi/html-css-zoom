@@ -82,13 +82,28 @@ main .main-content {
 }
 
 main .main-content aside {
-    width: 10%;
-    height: 100%;
+    margin: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-content aside i {
+    color: #7F7F7F;
+    font-size: 50px;
+}
+
+main .main-content aside i.active {
+    color: #2EBAFF;
 }
 
 main .main-content .webcams {
     width: 80%;
     height: 100%;
+
+    flex-grow: 1;
 }
 
 /* ***** footer ***** */
@@ -114,14 +129,20 @@ footer {
     background-color: yellow;
 } */
 
-.debug .main-content {
+/* .debug .main-content {
     height: 100%;
-}
+} */
 
-.debug .main-content aside {
+/* .debug .main-content aside {
     background-color: grey;
-}
+} */
 
 .debug .main-content .webcams {
     background-color: green;
+}
+
+.debug .webcams .person {
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
 }
