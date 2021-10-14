@@ -117,6 +117,10 @@ footer .btn {
     align-items: center;
 }
 
+footer .btn.active .btn-icon i {
+    color: #4BC800;
+}
+
 footer .btn-icon {
     display: flex;
     flex-direction: column;
