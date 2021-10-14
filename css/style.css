@@ -152,6 +152,16 @@ footer .footer-center .user-number {
     right: 20px;
 }
 
+
+footer .footer-right {
+    color: #F7534B;
+    background-color: #4A4B4D;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+
 /* +++++ debug +++++ */
 
 /* header .win-btn {
@@ -204,8 +214,8 @@ footer .footer-center .user-number {
     width: 70%;
 } */
 
-.debug .footer-right {
+/* .debug .footer-right {
     background-color: yellow;
     height: 100%;
     width: 10%;
-}
+} */
