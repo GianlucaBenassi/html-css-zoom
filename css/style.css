@@ -13,11 +13,39 @@ body {
 /* ***** header ***** */
 
 header {
+    position: relative;
     height: 25px;
     background-color: #DADADA;
     border-radius: 10px 10px 0 0;
 
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .window-commands {
+    position: absolute;
+    left: 5px;
+}
+
+header .win-btn {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+
+#close {
+    background-color: #FF6059;
+}
+
+#minimize {
+    background-color: #FFBE2F;
+}
+
+#zoom {
+    background-color: #27CA42;
 }
 
 /* ***** main ***** */
@@ -36,13 +64,6 @@ footer {
 
 /* +++++ debug +++++ */
 
-.debug .header-left {
-    width: 10%;
-    background-color: red;
-}
-
-.debug .header-right {
-    width: 90%;
-    background-color: green;
-}
-
+/* header .win-btn {
+    background-color: blue;
+} */
