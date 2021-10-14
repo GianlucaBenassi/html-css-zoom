@@ -82,6 +82,11 @@ main .person {
     position: relative;
 }
 
+main .person.speaking {
+    border: 2px solid yellow;
+    box-sizing: content-box;
+}
+
 main .person img {
     object-fit: cover;
     width: 100%;
