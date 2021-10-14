@@ -14,74 +14,35 @@ body {
 /* ***** header ***** */
 
 header {
-    color: black;
-    position: relative;
-    height: 25px;
-    background-color: #DADADA;
-    border-radius: 10px 10px 0 0;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-header .window-commands {
-    position: absolute;
-    left: 5px;
-}
-
-header .win-btn {
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-    margin: 0 3px;
-}
-
-#close {
-    background-color: #FF6059;
-}
-
-#minimize {
-    background-color: #FFBE2F;
-}
-
-#zoom {
-    background-color: #27CA42;
-}
-
-/* ***** main ***** */
-
-main {
-    height: calc(100vh - 25px - 100px);
     background-color: black;
-}
-
-main .view {
-    margin-right: 20px;
+    height: 60px;
+    padding-right: 30px;
 
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-main .view-btn {
+header .view-btn {
     background-color: #202223;
     margin: 10px 0 20px 10px;
     padding: 5px 10px;
     border-radius: 5px;
 }
 
-main .view-btn span {
+header .view-btn span {
     margin-left: 5px;
 }
 
+/* ***** main ***** */
 
-main .main-content {
+main {
+    height: calc(100vh - 60px - 100px);
+    background-color: black;
     display: flex;
 }
 
-main .main-content aside {
+main aside {
     margin: 0 20px;
 
     display: flex;
@@ -90,39 +51,37 @@ main .main-content aside {
     align-items: center;
 }
 
-main .main-content aside i {
+main aside i {
     color: #7F7F7F;
     font-size: 50px;
 }
 
-main .main-content aside i.active {
+main aside i.active {
     color: #2EBAFF;
 }
 
-main .main-content .webcams {
-    width: 80%;
-    height: 100%;
-
+main .webcams {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-grow: 1;
     flex-wrap: wrap;
 }
 
-main .main-content .person {
+main .person {
     width: 300px;
     height: 180px;
     margin-bottom: 10px;
     position: relative;
 }
 
-main .main-content .person img {
+main .person img {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
-main .main-content .person .infos {
+main .person .infos {
     background-color: rgba(0,0,0,0.4);
     padding: 2px 5px;
     position: absolute;
@@ -161,7 +120,7 @@ footer {
     background-color: grey;
 } */
 
-.debug .main-content .webcams {
+.debug .webcams {
     background-color: green;
 }
 
