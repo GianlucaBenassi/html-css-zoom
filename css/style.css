@@ -9,3 +9,40 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
+/* ***** header ***** */
+
+header {
+    height: 25px;
+    background-color: #DADADA;
+    border-radius: 10px 10px 0 0;
+
+    display: flex;
+}
+
+/* ***** main ***** */
+
+main {
+    height: calc(100vh - 25px - 100px);
+    background-color: black;
+}
+
+/* ***** footer ***** */
+
+footer {
+    height: 100px;
+    background-color: #202223;
+}
+
+/* +++++ debug +++++ */
+
+.debug .header-left {
+    width: 10%;
+    background-color: red;
+}
+
+.debug .header-right {
+    width: 90%;
+    background-color: green;
+}
+
