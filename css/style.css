@@ -8,11 +8,13 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    color: white;
 }
 
 /* ***** header ***** */
 
 header {
+    color: black;
     position: relative;
     height: 25px;
     background-color: #DADADA;
@@ -55,6 +57,25 @@ main {
     background-color: black;
 }
 
+main .view {
+    margin-right: 20px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main .view-btn {
+    background-color: #202223;
+    margin: 10px 0 20px 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+main .view-btn span {
+    margin-left: 5px;
+}
+
 /* ***** footer ***** */
 
 footer {
@@ -68,10 +89,10 @@ footer {
     background-color: blue;
 } */
 
-.debug main .view {
+/* .debug main .view {
     height: 50px;
     background-color: green;
-}
+} */
 
 .debug main .webcams {
     height: 1000px;
