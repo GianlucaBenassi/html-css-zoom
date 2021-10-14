@@ -11,6 +11,12 @@ body {
     color: white;
 }
 
+.view-btn:hover,
+.btn:hover,
+.footer-right:hover {
+    cursor: pointer;
+}
+
 /* ***** header ***** */
 
 header {
@@ -73,6 +79,7 @@ main .webcams {
     flex-wrap: wrap;
     margin-bottom: 20px;
     align-content: center;
+    overflow-y: auto;
 }
 
 main .person {
@@ -136,9 +143,11 @@ footer .btn .fa-chevron-up {
     margin-left: 20px;
 }
 
+
 footer .footer-left {
     display: flex;
 }
+
 
 footer .footer-center {
     display: flex;
